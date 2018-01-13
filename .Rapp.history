@@ -1,0 +1,190 @@
+x = 3
+x <- 4
+[print x]
+print x
+print 'x'
+3+4
+4 %% 3
+39 %% 7
+x <- 42
+x
+print(x)
+clc
+clear
+my_oranges <- 5
+my_fruit <- 6
+my_love <- my_fruit + my_oranges
+my_love
+my_love <- my_fruit + my_oranges; my_love
+logical <- TRUE
+logical
+class(logical)
+udacity <- FALSE
+class(udacity)
+some_vector <- c("João", "Economista")
+names(some_vector) <- c("Nome", "Profissão")
+some_vector
+# Poker and roulette winnings from Monday to Friday:#
+poker_vector <- c(140, -50, 20, -120, 240)#
+roulette_vector <- c(-24, -50, 100, -350, 10)#
+days_vector <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")#
+names(poker_vector) <- days_vector#
+names(roulette_vector) <- days_vector#
+#
+# Calculate total gains for poker and roulette#
+total_poker <- sum(poker_vector)#
+total_roulette <- sum(roulette_vector)#
+#
+# Check if you realized higher total gains in poker than in roulette #
+total_roulette > total_poker
+# Poker and roulette winnings from Monday to Friday:#
+poker_vector <- c(140, -50, 20, -120, 240)#
+roulette_vector <- c(-24, -50, 100, -350, 10)#
+days_vector <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")#
+names(poker_vector) <- days_vector#
+names(roulette_vector) <- days_vector#
+#
+# Which days did you make money on poker?#
+selection_vector <- poker_vector > 0#
+# Print out selection_vector#
+selection_vector
+# Poker and roulette winnings from Monday to Friday:#
+poker_vector <- c(140, -50, 20, -120, 240)#
+roulette_vector <- c(-24, -50, 100, -350, 10)#
+days_vector <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")#
+names(poker_vector) <- days_vector#
+names(roulette_vector) <- days_vector#
+#
+# Which days did you make money on poker?#
+selection_vector <- poker_vector > 0#
+#
+# Select from poker_vector these days#
+poker_winning_days <- poker_vector[selection_vector]
+poker_winning_days
+clc
+clear
+clean
+vector_1 <- c(1:9)
+vector_2 <- c(11:20)
+vector_3 <- c(21:30)
+minha_matriz <- matrix(c(vector_1, vector_2, vector_3), nrow=3, byrow=TRUE)
+box_office <- c(460.998, 314.4, 290.475, 247.900, 309.306, 165.8)#
+star_wars_matrix <- matrix(box_office, nrow = 3, byrow = TRUE,#
+                           dimnames = list(c("A New Hope", "The Empire Strikes Back", "Return of the Jedi"), #
+                                           c("US", "non-US")))
+box_office
+star_wars_matrix
+star_wars_matrix <- cbind(star_wars_matrix, rowSums(star_wars_matrix))
+star_wars_matrix
+colnames()
+vector_2  = c(1,2)
+vector_2
+print('Raul Gostoso')
+fdsds
+sdf
+asdf
+asd
+asdf
+asdfasdf
+asdf
+adsf
+asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+speed_vector <- c("fast", "slow", "slow", "fast", "insane")
+factor_speed_vector <- factor(speed_vector, ordered = TRUE, levels = c('jao', 'maria', 'jose'))
+summary(factor_speed_vector)
+mtcars
+clear
+print("this is R, bitch")
+x <- c(10,1,30,100,90,3,4,78)
+ordenamento <- order(x)
+ordenamento
+sorted_x <- x[ordenamento]
+sorted_x
+minha_matriz <- matrix(c(1,2,3), (3,4,5))
+minha_matriz <- matrix(c(1,2,3), c(3,4,5))
+minha_matriz
+vetor <- c(1,2,3,4,5,6,7,8,9)
+matriz <- matrix(vetor, byrow=TRUE, nrow=3)
+matriz
+nova_matriz = matriz + 1
+nova_matriz
+"abel" > "beable"
+linkedin <- c(16, 9, 13, 5, 2, 17, 14)#
+facebook <- c(17, 7, 5, 16, 8, 13, 14)#
+views <- matrix(c(linkedin, facebook), nrow = 2, byrow = TRUE)
+views
+rownames(views) = c("LinkedIn","Facebook")
+views
+days = c("Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7" )
+colnames(views) = days
+views
+views$LinkedIn
+views["LinkedIn",]
+TRUE & FALSE
+x <- 5#
+y <- 7#
+!(!(x < 4) & !!!(y > 12))
+x<4
+y>12
+!(x<4)
+media(x=1:10)
+median(x=1:10)
+x
+lapply(list(1, "a", TRUE), str)
+?sor
+?sort
+# The emails vector has already been defined for you#
+emails <- c("john.doe@ivyleague.edu", "education@world.gov", "global@peace.org",#
+            "invalid.edu", "quant@bigdatacollege.edu", "cookie.monster@sesame.tv")#
+#
+# Use sub() to convert the email domains to datacamp.edu#
+sub(pattern = "@.*\\.edu$", replacement = "@datacamp.edu", x = emails)
+?qf
+qf(0.95, 1, 100)
+library(openintro)
+library("openintro")
+library(dyplr)
+library(dplyr)
+install.packages("dplyr")
+getwd()
+ls
+dir
+ls()
+list.dirs()
+x = 4
+x
+clc
+cls
+clear
+clean
+list.files()
+cd("Google Drive")
+cd()
+setwd()
+setwd("Google Drive")
+getwd()
+list.files()
+setwd("Mestrado/2018:1")
+list.files()
+setwd("AMM")
+list.files()
+source("rain_pi.R")
+source("transformation_method.R")
+source("normal_rejectionsampling.R")
+norm_sample
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+plot(iteration, mu, type = 'l')
+plot(iterations, mu, type = 'l')
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
+source("importance_sampling.R")
