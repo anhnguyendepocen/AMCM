@@ -1,3 +1,10 @@
+# Ignoring my annotated pdf version of lecture Notes on Monte Carlo Methods by
+# Adam Johansen and Ludger Evers
+mcm-2007.pdf
+
+# Ignoring lecture notes from Prof. Yuri Saporito
+stochastic_notes.pdf
+
 # History files
 .Rhistory
 .Rapp.history
