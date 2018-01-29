@@ -1,3 +1,6 @@
+# Ignoring Jupyter Notebooks CHECKPOINTS
+.ipynb_checkpoints
+
 # Ignoring my annotated pdf version of lecture Notes on Monte Carlo Methods by
 # Adam Johansen and Ludger Evers
 mcm-2007.pdf
